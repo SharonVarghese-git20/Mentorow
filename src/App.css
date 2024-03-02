@@ -4,25 +4,26 @@ h1{
   font-size: 60px;
   line-height: 70.35px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 img{
-  
-  border-radius: 50%;
-  width:741.27px;
-  height:741.27px;
+ margin-top: 20px;
+  width:500px;
+  height:600px;
   top: 23.87px;
-  
   transform: scaleX(-1);
   align-items: right;
+
   
 }
 .ContactS1{
-  display:flex;
   justify-content: space-around;
   color:white;
   display: grid;
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns:1fr 1fr ;
+      grid-template-rows: 1fr;
+  
+
 }
 button{
   border-radius: 50px;
@@ -36,3 +37,4 @@ button{
   top:-2px;
   border-color:purple;
 }
+
